@@ -1,0 +1,52 @@
+
+
+//===============MEDIA QUERIES VARIEBLES============
+$huge:87.5em;//1400
+$bigger:62.5em; //1000px
+$big:56.65em; //900px
+$medium:43.75em; //700px
+$medium-2:40.625em; //650px
+$small:31.25em; //500px;
+$smaller:25em; //400px
+
+
+
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color:black;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    @media only screen and (min-width:$huge){
+        font-size:69%;
+    }
+    @media only screen and (max-width:$bigger){
+        font-size:58% ;
+    }
+    @media only screen and (max-width:$big){
+        font-size:50% ;
+    }
+    @media only screen and (max-width:$medium){
+        font-size:45% ;
+    }
+    @media only screen and (max-width:$medium-2){
+        font-size:45% ;
+    }
+
+    @media only screen and (max-width:$small){
+        font-size:42% ;
+    }
+    
+}
+
+
+
+body{
+    background-color: #F8F8F8
+}

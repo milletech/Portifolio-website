@@ -1,0 +1,41 @@
+.btn{
+    text-decoration: none;
+    font-size: 1.6rem;
+    border: solid 1.5px #00D0FE;
+    text-transform: capitalize;
+    padding:0.9rem 2.6rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+
+    &--about{
+        color:#00D0FE;
+        &:hover{
+            background-color:#00D0FE;
+            color:#004756;
+            transform: translateY(-5px);
+        }
+    }
+
+    &--portifolio{
+        color:#004756;
+        background-color:#00D0FE;
+        &:hover{
+            background-color:#004756;
+            color:#00D0FE;
+            transform: translateY(-5px)!important;
+        }
+    }
+}
+.heading{
+    font-size:2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    color:#363636;
+}
+
+.active{
+    width:100%;
+}
+

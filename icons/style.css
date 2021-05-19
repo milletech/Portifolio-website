@@ -1,0 +1,40 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-tick-none {
+  width: 1.4208984375em;
+}
+
+.icon-tick-grey {
+  width: 1.4208984375em;
+}
+
+.icon-facebook {
+  width: 1.015625em;
+}
+
+.icon-dribble {
+  width: 1.015625em;
+}
+
+.icon-github {
+  width: 1.0322265625em;
+}
+
+.icon-upwork {
+  width: 1.4033203125em;
+}

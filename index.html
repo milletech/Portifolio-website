@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styling -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- Font Family -->
+    <!-- Comfortaa Font Family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- montserrat Font Family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <title>Software Developer| Web designer|Mille Gumede Portifolio| Durban South Africa</title>
+    <meta name ="description" content="Software Developer, Web Developer and Web Designer from South Africa Durban, Need website for your business or brand then you are in the right place.">
+    <meta name="keywords" content="Software Developer, Web Designer, Web Developer, Durban ,South Arica Developer, Front End Web Developer, Back End Web Devloper, Website,Shopify,JavaScript,Mille Gumede">
+    <!-- JavaScript -->
+    <script src="script.js"  defer></script>
+</head>
+<body>
+    <main>
+        <!-- SIDE NAVBAR -->
+        <div class="sidenavbar">
+            <ul>
+                <li><a onclick="smoothScroll(this,'home')" class='active'>Home</a></li>
+                <li><a onclick="smoothScroll(this,'about')" >About Me</a></li>
+                <li><a onclick="smoothScroll(this,'portifolio')" >Portifolio</a></li>
+                <li><a onclick="smoothScroll(this,'needwebsite')" >Need A Website?</a></li>
+                <li ><a onclick="smoothScroll(this,'contact')">Contact Me</a></li>
+            </ul>
+
+            <div class="close-side">
+                <div class="close-side__main">
+
+                </div>
+            </div>
+        </div>
+        <!-- HERO SECTION -->
+        <div class="hero" id="home">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <img src="./images/logo mille 2.png" alt="south african software developer" class="logo__image">
+                    </div>
+
+                    <ul>
+                        <li><a onclick="smoothScroll(this,'home')" class='active'>Home</a></li>
+                        <li><a onclick="smoothScroll(this,'about')" >About Me</a></li>
+                        <li><a onclick="smoothScroll(this,'portifolio')" >Portifolio</a></li>
+                        <li><a onclick="smoothScroll(this,'needwebsite')" >Need A Website?</a></li>
+                        <li><a onclick="smoothScroll(this,'contact')">Contact Me</a></li>
+                    </ul>
+                    <div class="burger-icon">
+
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="hero__main">
+                    <p class="text-1">Hi I'm Mille</p>
+                    <p class="text-2">web designer and a <br> software developer</p>
+                    <a onclick="smoothScroll(this,'about')" class="btn btn--about">about me</a> <a class="btn btn--portifolio" onclick="smoothScroll(this,'portifolio')">portifolio</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="about section" id="about">
+            <div class="container">
+                <!-- <p class='heading'>about me</p> -->
+                <div class="about__main">
+                    <div class="about__main--text">
+                        <p class='heading'>about me</p>
+                        <p>Passionate Software Developer and a Web designer(UI/UX) 
+                            from Durban, I love tech and creating digital platforms
+                            for the internet. With an experience of working with clients as a freelancer,
+                            designing and developing web apps and website.</p>
+                    </div>
+                    <div class="about__main--picture">
+                        <img src="./images/mille.jpg" alt="web designer and Mille Gumede">
+                    </div>  
+
+                </div>
+
+
+                <p class="heading">skills & tools</p>
+                <div class="skills">
+                    <ul class="column">
+                        <li>JavaScript(ES6+)&JQuery</li>
+                        <li>Node JS(Express)</li>
+                        <li>Liquid(Shopify</li>
+
+                    </ul>
+                    <ul class="column">
+                        <li>HTML & CSS</li>
+                        <li>MongoDB</li>
+                    </ul>
+                    <ul class="column">
+                        <li>Bootstrap & SASS</li>
+                        <li>Git & Github</li>
+                    </ul>
+                </div>
+
+                <div class="skills">
+                    <ul class="column">
+                        <li class="design">Adobe Photoshop</li>
+                        <li class="design">Adobe XD</li>
+                    </ul>
+                    <ul class="column">
+                        <li class="design">Figma</li>
+                    </ul>
+                    <ul class="column">
+                        <li class="design">Inkscape</li>
+                    </ul>
+                </div>
+
+
+                <div class="hire-me">
+                    <div class="hire-me__text">
+                        <p>I am open for<br>front-end development or web design(ui/ux)<br> job</p>
+                    </div>
+
+                    <a class="hire-me__btn" onclick="smoothScroll(this,'contact')">
+                        Hire Me
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+        
+        <div class="portifolio section" id="portifolio">
+            <div class="container">
+                <p class="heading">portifolio</p>
+
+                <div class="filter">
+                    <button class="filter__btn">All</button>
+                    <button class="filter__btn">web apps</button>
+                    <button class="filter__btn">web design</button>
+                    <button class="filter__btn">e-commerce</button>
+                </div>
+
+                <div class="project">
+                    <div class="project__display">
+                        <!-- <video>
+                            <source src="">
+                        </video> -->
+
+                        <img src="./images/project1.png" alt="MKI Website design">
+                    </div>
+                    <div class="project__descr">
+                        <p>mki static website</p>
+
+                        <ul>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick"></use>
+                                </svg>
+                                modern design
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick"></use>
+                                </svg>
+                                responsive design
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick"></use>
+                                </svg>
+                                7 pages website
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick"></use>
+                                </svg>
+                                Email Account
+                            </li>
+                        </ul>
+
+                        <div class="tools">
+                            <svg>
+                                <use xlink:href="images/sprite.svg#icon-figma"></use>
+                            </svg>
+                            <svg>
+                                <use xlink:href="images/sprite.svg#icon-html"></use>
+                            </svg>
+                            <svg>
+                                <use xlink:href="images/sprite.svg#icon-css"></use>
+                            </svg>
+                            <svg>
+                                <use xlink:href="images/sprite.svg#icon-sass"></use>
+                            </svg>
+                            <svg>
+                                <use xlink:href="images/sprite.svg#icon-javascript"></use>
+                            </svg>
+                        </div>
+
+                        <div class="cta">
+                            <a href="https://mki.netlify.app/">
+                                view
+                               
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-eye"></use>
+                                </svg>
+                            </a>
+
+                            <a href="https://github.com/milletech/MKI-Build">code 
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-github"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project">
+                    <div class="project__descr">
+                        <p>optometrist template</p>
+
+                        <ul>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick"></use>
+                                </svg>
+                                modern design
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick"></use>
+                                </svg>
+                                responsive design
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick"></use>
+                                </svg>
+                                template design
+                            </li>
+                        </ul>
+
+                        <div class="tools">
+                            <svg>
+                                <use xlink:href="images/sprite.svg#icon-figma"></use>
+                            </svg>
+
+                        </div>
+
+                        <div class="cta">
+                            <a href="https://mki.netlify.app/" class="inactive" onclick='return false;'>
+                                view
+                               
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-eye"></use>
+                                </svg>
+                            </a>
+
+                            <a href="https://github.com/milletech/MKI-Build" class="inactive" onclick='return false;'>code 
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-github"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project__display">
+                        <!-- <video>
+                            <source src="">
+                        </video> -->
+
+                        <img src="./images/project2.png" alt="doctor web design template">
+                    </div>
+                </div>
+
+
+                
+                <div class="project">
+                    <div class="project__display">
+                        <!-- <video>
+                            <source src="">
+                        </video> -->
+
+                        <img src="./images/project3.png" alt="mofaya web design">
+                    </div>
+                    <div class="project__descr">
+                        <p>mofaya concept</p>
+
+                        <ul>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick"></use>
+                                </svg>
+                                UI/UX Prototype
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick"></use>
+                                </svg>
+                                responsive design
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick"></use>
+                                </svg>
+                                template design
+                            </li>
+                        </ul>
+
+                        <div class="tools">
+                            <svg>
+                                <use xlink:href="images/sprite.svg#icon-figma"></use>
+                            </svg>
+                            <svg>
+                                <use xlink:href="images/sprite.svg#icon-photoshop"></use>
+                            </svg>
+                            <svg>
+                                <use xlink:href="images/sprite.svg#icon-inkscape"></use>
+                            </svg>
+
+                        </div>
+
+                        <div class="cta">
+                            <a href="https://www.figma.com/proto/AxFrZbusuKWrAFVSSTobxv/Mofaya-Final?node-id=0%3A3&scaling=scale-down-width&page-id=0%3A1">
+                                view
+                               
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-eye"></use>
+                                </svg>
+                            </a>
+
+                            <a href="https://github.com/milletech/MKI-Build" class="inactive" onclick='return false;'>code 
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-github"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project">
+                    <div class="project__descr">
+                        <p>cash loans landing page</p>
+
+                        <ul>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick"></use>
+                                </svg>
+                                responsive design
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick"></use>
+                                </svg>
+                                template design
+                            </li>
+                        </ul>
+
+                        <div class="tools">
+                            <svg>
+                                <use xlink:href="images/sprite.svg#icon-figma"></use>
+                            </svg>
+                            <svg>
+                                <use xlink:href="images/sprite.svg#icon-html"></use>
+                            </svg>
+                            <svg>
+                                <use xlink:href="images/sprite.svg#icon-css"></use>
+                            </svg>
+
+
+                        </div>
+
+                        <div class="cta">
+                            <a href="https://www.figma.com/proto/AxFrZbusuKWrAFVSSTobxv/Mofaya-Final?node-id=0%3A3&scaling=scale-down-width&page-id=0%3A1">
+                                view
+                               
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-eye"></use>
+                                </svg>
+                            </a>
+
+                            <a href="https://github.com/milletech/MKI-Build" class="inactive" onclick='return false;'>code 
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-github"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project__display">
+                        <!-- <video>
+                            <source src="">
+                        </video> -->
+
+                        <img src="./images/project4.png" alt="cash loans web design">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="website section"  id="needwebsite">
+            <div class="container">
+              <div class="main-website">
+                <div class="main-website__text">
+                    <p class="text-1">need a website?</p>
+                    <p class="text-2">Do You Want To Grow Your Business Or 
+                        Your Brand, To Establish An Online Presence
+                        That Will Reach New Customers/Clients And
+                        Followers.
+                    </p>
+
+                    <p class="text-2">
+                        Then Let Work On Your Website, To request a website
+                        click a suitable Website Plan Or Package for you below.
+                    </p>
+                </div>
+                <div class="main-website__image">
+                    <img src="images/usewebsite.jpg" alt="website designer web designer">
+                </div>
+              </div>
+
+              <div class="plans section">
+                    <div class="plans__card plans__card--basic" id="basic">
+                        <p class="plan-heading">basic</p>
+                        <p class="plan-heading plan-heading__2">static website</p>
+
+                        <ul>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                2 pages max</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                domain and hosting</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                1 revision</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-grey"></use>
+                                </svg>
+                                email account</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                responsive design</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-grey"></use>
+                                </svg>
+                                custom design</li>
+                        </ul>
+
+                        <p class="price">R2 200</p>
+
+                    </div>
+                    <div class="plans__card plans__card--standard" id="standard">
+                        <p class="plan-heading">standard</p>
+                        <p class="plan-heading plan-heading__2">static website</p>
+
+                        <ul>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                5 pages max</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                domain and hosting</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                3 revision</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                email account</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                responsive design</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-grey"></use>
+                                </svg>
+                                custom design</li>
+                        </ul>
+
+                        <p class="price">R3 650</p>
+
+                        
+                    </div>
+                    <div class="plans__card plans__card--premium" id="premium">
+                        <p class="plan-heading">premium</p>
+                        <p class="plan-heading plan-heading__2">static website</p>
+
+                        <ul>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                10 pages max</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                domain and hosting</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                5 revision</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                email account</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                responsive design</li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-tick-none"></use>
+                                </svg>
+                                custom design</li>
+                        </ul>
+
+                        <p class="price">R4 700</p>
+                    </div>
+
+
+              </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="main-contact">
+                    <div class="main-contact__image">
+                        <img src="images/contact.jpg" alt="contact mille gumede">
+                    </div>
+                    
+                    <div class="main-contact__details">
+                        <p class="contact-heading">contact details</p>
+                        <ul>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-call"></use>
+                                </svg>
+                                076 436 4002
+                            </li>
+
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-whatsapp"></use>
+                                </svg>
+                                081 351 0035
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="images/sprite.svg#icon-email"></use>
+                                </svg>
+                                millesthandiwe@gmail.com
+                            </li>
+                        </ul>
+                        <div class="socials">
+                            <p class="contact-heading">socials</p>
+
+                            <div class="socials__main">
+                                <a href="https://www.instagram.com/dev_mille/">
+                                    <svg>
+                                        <use xlink:href="images/sprite.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                                <a href="https://www.facebook.com/mille.gumede/">
+                                    <svg>
+                                        <use xlink:href="images/sprite.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/dev-mille-4b2548188/">
+                                    <svg>
+                                        <use xlink:href="images/sprite.svg#icon-linkedInBox"></use>
+                                    </svg>
+                                </a>
+                                <a href="https://dribbble.com/BeyondMille">
+                                    <svg>
+                                        <use xlink:href="images/sprite.svg#icon-dribble"></use>
+                                    </svg>
+                                </a>
+                                <!-- <a href="#">
+                                    <svg>
+                                        <use xlink:href="images/sprite.svg#icon-github"></use>
+                                    </svg>
+                                </a> -->
+                                <!-- <a href="#">
+                                    <svg>
+                                        <use xlink:href="images/sprite.svg#icon-upwork"></use>
+                                    </svg>
+                                </a> -->
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                    <div class="main-contact__email">
+                        <p class="contact-heading">get in touch</p>
+                        <form action="https://formspree.io/f/xrgrporb" method="POST">
+                            <input type="text" name="name" required placeholder="NAME"><br>
+                            <input type="email" name="email" required placeholder="EMAIL"><br>
+                            <input type="text" name="subject" required placeholder="SUBJECT"><br>
+                            <textarea name="message" id="" cols="30" rows="8" placeholder="MESSAGE..." resize></textarea>
+                            <input type="submit" value="SEND" class="send" name="">
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="request-plan">
+
+            <div class="container">
+            <div class="note">
+                <h1>Note:Project Policy</h1>
+                <ul>
+                    <li>Website/Project discussion(Gather all neccessary information about the project)</li>
+                    <li>50% Deposit is required before work is commenced</li>
+                    <li>Website is done (of couse reviews and revision are included) </li>
+                    <li>Rest of the payment is paid </li>
+                    <li>Website is deployed online(if neccessary)</li>
+                </ul>
+
+
+                <form action="https://formspree.io/f/xzbyekky" method="POST">
+                    <input type="text" placeholder="Name" name="name" required><br>
+                    <input type="email" placeholder="Email" name="email" required><br>
+                    <input type="number" placeholder="Phone Number" name="phone" required><br>
+                    <label for="Plan">Plan</label>
+                    <select name="Plan" class="plan-select" name='select-plan'>
+                        <option value="basic" class='option'>Basic</option>
+                        <option value="standard" class='option'>Standard</option>
+                        <option value="premium" class='option'>Premium</option>
+                    </select><br>
+                    <textarea name="message" id="" cols="30" rows="7" placeholder="Message(optional)..."></textarea>
+                    <input type="submit" value="Request Plan" class='request' name="">
+                </form>
+            </div>
+
+            <div class="close">
+                <!-- <h1>close</h1> -->
+                <div class="close__main">
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="main-footer">
+                <p>Mille 2021  <svg>
+                    <use xlink:href="images/sprite.svg#icon-copyright"></use>
+                </svg> copyright all right reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
