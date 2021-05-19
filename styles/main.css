@@ -899,6 +899,13 @@ nav .burger-icon::after {
           transform: translateY(-50%);
 }
 
+@media only screen and (max-width: 40.625em) {
+  .hero__main {
+    top: 50%;
+    text-align: center;
+  }
+}
+
 .section {
   padding: 7rem 0;
 }

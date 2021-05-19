@@ -19,6 +19,10 @@
         position:absolute;
         top:55%;
         transform: translateY(-50%);
+        @media only screen and (max-width:$medium-2){
+            top:50%;
+            text-align: center;
+        }
     }
 }
 
