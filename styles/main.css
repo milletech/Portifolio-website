@@ -809,6 +809,7 @@ nav .burger-icon::after {
 @media only screen and (max-width: 40.625em) {
   .main-contact__email form input, .main-contact__email form textarea {
     width: 100%;
+    padding: 1rem 0.5rem;
   }
 }
 
@@ -1130,6 +1131,7 @@ footer .main-footer svg {
 @media only screen and (max-width: 43.75em) {
   .request-plan .note form input, .request-plan .note form textarea, .request-plan .note form select {
     width: 60%;
+    padding: 1.3rem 0.4rem;
   }
 }
 
