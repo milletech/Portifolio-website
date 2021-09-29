@@ -209,6 +209,17 @@ nav .burger-icon::after {
   font-size: 1.8rem;
   line-height: 2.5rem;
   font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.about__main--text .resume {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 2rem 0;
 }
 
 .about__main--picture {
@@ -919,7 +930,7 @@ nav .burger-icon::after {
   position: relative;
   background-position: center;
   padding: 7.5rem 1.4rem;
-  margin: 7rem 0;
+  margin-bottom: 12rem;
 }
 
 @media only screen and (max-width: 40.625em) {

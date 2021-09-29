@@ -124,6 +124,17 @@ nav{
                 font-size: 1.8rem;
                 line-height: 2.5rem;
                 font-weight: 400;
+                margin-bottom: 4rem;
+            }
+
+            .resume{
+                text-decoration: none;
+                background-color:black;
+                color:white;
+                font-size: 1.3rem;
+                text-transform: uppercase;
+                padding:1rem;
+                margin:2rem 0;
             }
         }
         &--picture{
